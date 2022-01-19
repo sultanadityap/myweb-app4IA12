@@ -1,4 +1,8 @@
 // Body
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+    }
 
 $blue: #007bff !default;
 $indigo: #6610f2 !default;
@@ -10,3 +14,15 @@ $yellow: #ffc107 !default;
 $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
+
+// Bikinan sendiri
+$black-primary :black;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Nanum+Gothic');
+
+$font-family: 'Comic Neue', cursive;
+$font-family: 'Nanum Gothic', sans-serif;
+
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;

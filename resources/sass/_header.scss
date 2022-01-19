@@ -1,0 +1,31 @@
+.row-title {
+    min-height: 650px;
+
+    .my-photo {
+        box-shadow: none;
+        overflow: hidden;
+    }
+    
+    .my-name {
+        font-family: 'Nanum Gothic', sans-serif;
+        font-size: 100px;
+        line-height: 95px;
+        color: $black-primary;
+
+        strong {
+            border-bottom: 3px solid orange;
+        }
+
+    }
+
+    .caption {
+        font-family: 'Nanum Gothic', sans-serif;
+        margin-top: 40px;
+        letter-spacing: 2px;
+        color: purple;
+        font-size: 30px;
+        line-height: 20px;
+        font-weight: bold;
+    }
+}
+
